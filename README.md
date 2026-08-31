@@ -22,7 +22,7 @@ This repository is my product portfolio, documenting how I frame business proble
 
 - 泛意图搜索：支持“任何目的地”“一个月内”“3 天”等模糊条件
 - AI 决策建议：输出“购买 / 观望”结论、信心指数与关键依据
-- TCO 精算：穿透行李、选座等附加费用，计算真实出行成本
+- TCO 精算：穿透行李、选座等附加费用，计算真实总价
 - 智能监控：关注航线、涨跌追踪、红黄绿决策标签
 - AI 种草：结合目的地 POI 与用户偏好生成推荐理由
 - 商业化：VIP + CPS 导流 + B2B 数据订阅 / DaaS
@@ -50,6 +50,14 @@ The AI assistant “小太阳” does not directly invent price facts. Structure
 | 01 · 向由心生 | AI decision support / TCO / recommendation | ✅ Available |
 | 02 · Data Analysis Agent | B2B / Agent / business intelligence | Planned |
 | 03 · AI Investment Product | Complex-domain AI / financial product design | Planned |
+
+## Project Documentation
+
+- [01 · 向由心生 Case Study](./projects/01-xiang-you-xin-sheng/README.md)
+- [PRD](./docs/01-PRD.md)
+- [Product Analysis](./docs/02-Product-Analysis.md)
+- [AI Product Design](./docs/03-AI-Product-Design.md)
+- [Metrics & Roadmap](./docs/04-Metrics-and-Roadmap.md)
 
 ## About This Repository
 
