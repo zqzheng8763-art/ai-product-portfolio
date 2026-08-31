@@ -1,66 +1,93 @@
-# AI Product Manager Portfolio
+# 产品经理作品集
 
-> **B2B / AI Product · Agent · Data-driven Product Design**
+> **AI 产品经理 · B 端产品 · 产品策略 · 用户洞察 · AI 产品化**
 
-This repository is my product portfolio, documenting how I frame business problems, define product strategy, design AI capabilities, and translate ideas into prototypes and executable product requirements.
+这里记录我对真实问题的观察、产品机会的判断，以及从 **想法 → 产品定义 → 方案设计 → 原型 / Demo → 迭代** 的完整过程。
 
-## Featured Projects
+我希望通过作品展示的，不只是“做过什么功能”，而是：
 
-### 01 · 向由心生｜智能特价机票发现与决策平台
+- 如何发现问题，以及为什么认为它值得解决
+- 如何从用户场景中提炼真正的核心需求
+- 如何在目标、成本、体验与商业模式之间做取舍
+- 如何把一个模糊的 Idea 转化为可落地的产品方案
+- 在 AI 场景中，哪些问题应该交给模型，哪些问题必须由规则、数据或产品机制解决
 
-**AI decision support for flight discovery, price comparison and purchase timing**
+---
 
-**Role:** Product Manager  
-**Type:** AI Product / Consumer Product  
-**Focus:** AI Decision Support · Recommendation · TCO · Price Monitoring · Monetization
+## 作品目录
 
-**Core question:**
+### 01 · 「向由心生」｜智能特价机票发现与决策平台
 
-> 用户不是缺一个“能买机票”的地方，而是缺一个能回答“去哪更划算、现在买还是等、真实总价是多少”的决策工具。
+**关键词：** 价格敏感用户 · 信息差 · 决策辅助 · 比价 · TCO · 监控 · 商业模式
 
-**Key product capabilities**
+这是一个从“**用户为什么总觉得机票难买**”出发的产品设计项目。
 
-- 泛意图搜索：支持“任何目的地”“一个月内”“3 天”等模糊条件
-- AI 决策建议：输出“购买 / 观望”结论、信心指数与关键依据
-- TCO 精算：穿透行李、选座等附加费用，计算真实总价
-- 智能监控：关注航线、涨跌追踪、红黄绿决策标签
-- AI 种草：结合目的地 POI 与用户偏好生成推荐理由
-- 商业化：VIP + CPS 导流 + B2B 数据订阅 / DaaS
+我没有把它定义成另一个 OTA，而是尝试把产品切入点放在**交易发生之前的决策环节**：
 
-[🚀 View Live Demo](https://ticket-venture-space.nocode.host) · [📖 View Case Study](./projects/01-xiang-you-xin-sheng/README.md)
+> 用户真正缺少的，不只是一个“可以买机票”的地方，而是一个能回答“去哪更划算、现在买还是等、真实总价是多少”的工具。
 
-## Product Thinking Highlights
+在这个项目中，我重点思考了：
 
-### 1. From transaction to decision
+**1. 如何把“找特价票”从一个搜索问题变成一个决策问题**  
+用户面对的并不是单一最低价，而是目的地、时间、价格趋势、库存、促销和附加费用共同作用后的结果。
 
-Instead of competing with OTA platforms on booking fulfillment, the product occupies the **pre-purchase decision layer** and uses CPS to route users back to OTA / airline channels for final transactions.
+**2. 如何解决“低价裸票 ≠ 低成本出行”**  
+尤其是廉航场景，行李、选座等附加费用可能直接改变用户的购买选择，因此产品需要进一步计算真实总价（TCO）。
 
-### 2. From “cheap ticket” to real cost
+**3. 如何建立一个与 OTA 不同的产品价值**  
+最终交易仍然可以回到 OTA / 航司完成，而产品重点解决的是交易前的信息整理、横向比较与购买时机判断。
 
-The product treats the displayed fare as only one part of the decision. For complex airline rules, especially low-cost carriers, the design converts unstructured fee rules into structured inputs and calculates total cost of ownership (TCO).
+**4. AI 应该出现在哪里**  
+AI 在这个项目中更适合作为产品能力，而不是为了“AI 化”而加入一个聊天框。例如：解析复杂规则、总结价格信号、辅助生成购买建议、生成目的地种草内容。
 
-### 3. From chatbot to evidence-based AI
+[🚀 查看产品 Demo](https://ticket-venture-space.nocode.host)  ·  [📖 查看完整 Case Study](./projects/01-xiang-you-xin-sheng/README.md)
 
-The AI assistant “小太阳” does not directly invent price facts. Structured price data, inventory signals, promotion calendars and algorithmic forecasts are prepared first; the LLM is then used to generate an interpretable recommendation.
+---
 
-## Portfolio Roadmap
+## 我重点展示的产品能力
 
-| Project | Primary capability | Status |
+| 能力 | 我希望展示的思考 |
+| --- | --- |
+| 用户洞察 | 从真实用户场景中发现产品机会 |
+| 产品定位 | 明确“为什么做、为谁做、与竞品有什么不同” |
+| 产品策略 | 在用户价值、业务价值和落地成本之间做取舍 |
+| 需求分析 | 将模糊问题拆解为可执行需求 |
+| 信息架构 | 从用户任务出发组织产品结构 |
+| AI 产品设计 | 判断 AI 应该解决什么问题，以及不应该解决什么问题 |
+| 商业模式 | 将用户价值与商业闭环连接起来 |
+| 数据指标 | 用指标验证功能是否真的产生价值 |
+| 原型 / Demo | 将抽象想法转化为可体验的产品 |
+
+---
+
+## 作品集未来规划
+
+| 项目 | 主要方向 | 状态 |
 | --- | --- | --- |
-| 01 · 向由心生 | AI decision support / TCO / recommendation | ✅ Available |
-| 02 · Data Analysis Agent | B2B / Agent / business intelligence | Planned |
-| 03 · AI Investment Product | Complex-domain AI / financial product design | Planned |
+| 01 · 向由心生 | 消费产品 / 信息决策 / 产品策略 | ✅ 已完成 |
+| 02 · 电商数据分析助手 | B 端 / AI Agent / 数据产品 | 🚧 规划中 |
+| 03 · AI 投资 / 券商产品 | 复杂业务 / AI 产品化 / 金融场景 | 🚧 规划中 |
 
-## Project Documentation
+后续项目会尽量覆盖不同类型的问题，而不是重复制作类似的 AI Demo。
 
-- [01 · 向由心生 Case Study](./projects/01-xiang-you-xin-sheng/README.md)
-- [PRD](./docs/01-PRD.md)
-- [Product Analysis](./docs/02-Product-Analysis.md)
-- [AI Product Design](./docs/03-AI-Product-Design.md)
-- [Metrics & Roadmap](./docs/04-Metrics-and-Roadmap.md)
+---
 
-## About This Repository
+## 关于这些作品
 
-This is a product portfolio rather than a production software repository. It focuses on product reasoning, PRD, AI solution design, metrics and iteration strategy.
+这些项目主要用于展示我的**产品思考、方案设计和产品落地能力**。
 
-> Product demos and documents are portfolio materials. They do not represent production integrations with real airline / OTA supply chains or payment systems.
+其中的 Demo、数据和系统架构属于作品集中的概念设计或原型，不代表已经接入真实生产环境。
+
+---
+
+## 开始阅读
+
+👉 [01 · 向由心生｜完整 Case Study](./projects/01-xiang-you-xin-sheng/README.md)
+
+👉 [PRD](./docs/01-PRD.md)
+
+👉 [产品分析](./docs/02-Product-Analysis.md)
+
+👉 [AI 产品设计](./docs/03-AI-Product-Design.md)
+
+👉 [指标与产品路线图](./docs/04-Metrics-and-Roadmap.md)
