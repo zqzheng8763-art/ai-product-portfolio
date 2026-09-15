@@ -67,7 +67,13 @@ Agent 只分析、解释和建议验证方式，不替用户调价、补货或�
 
 > **销售异常分析 Demo**：从一句自然语言问题开始，完整跑通“异常发现 → 贡献拆解 → Evidence Gate → 假设验证 → 复盘摘要”。
 
-**[🧪 查看 Demo / 本地运行](./projects/02-zhixi-bizinsight/demo/README.md)**
+### 🧪 在线体验
+
+**[🚀 直接打开智析在线 Demo](https://zqzheng8763-art.github.io/ai-product-portfolio/zhixi-demo/)**
+
+无需安装环境。Demo 在浏览器本地完成示例数据计算；不会把示例数据上传到服务器。LLM 层用规则化流程模拟，用于展示 Agent 产品逻辑与可信边界。
+
+**[📖 Demo 说明与本地版本](./projects/02-zhixi-bizinsight/demo/README.md)**
 
 体验重点不是“模型会不会聊天”，而是看它是否能在数据不足时停下来，并明确告诉用户：**现在知道什么、还不知道什么、下一步需要什么证据。**
 
@@ -129,7 +135,7 @@ Agent 只分析、解释和建议验证方式，不替用户调价、补货或�
 [02 · 智析 Case Study](./projects/02-zhixi-bizinsight/README.md)
 
 **② 再亲手体验**  
-[🧪 Interactive Demo](./projects/02-zhixi-bizinsight/demo/README.md)
+[🚀 在线 Interactive Demo](https://zqzheng8763-art.github.io/ai-product-portfolio/zhixi-demo/)
 
 **③ 最后看产品细节**  
 [📄 PRD](./projects/02-zhixi-bizinsight/PRD.md)
@@ -154,6 +160,6 @@ V2.0  企业数据直连 / 多店铺聚合 / 权限与知识配置
 
 这些项目用于展示产品思考、方案设计和 AI 产品化能力。
 
-Demo、数据和架构均为作品集中的原型 / 概念验证，不代表已经接入真实生产环境。当前智析 Demo 为 **Python + pandas 确定性计算 + 规则化流程模拟 Agent**；真实版本再接入 LLM、Schema 校验和工具路由。
+Demo、数据和架构均为作品集中的原型 / 概念验证，不代表已经接入真实生产环境。当前在线智析 Demo 为 **纯前端浏览器 Demo**；关键计算由 JavaScript 在本地完成，LLM 层以规则化流程模拟。仓库同时保留 Streamlit 版本，用于后续继续接入真实 LLM、Schema 校验和工具路由。
 
 我会继续围绕不同业务问题补充作品，但不会为了数量重复制作类似的 AI Demo。
